@@ -716,9 +716,9 @@
   # Use profile index 1
   gOemPkgTokenSpaceGuid.PcdActiveProfileIndex|0x1
 
-  !if $(TARGET) == RELEASE
-    gAdvLoggerPkgTokenSpaceGuid.PcdAdvancedLoggerHdwPortDebugPrintErrorLevel|0x0
-  !endif
+  # !if $(TARGET) == RELEASE
+  #  gAdvLoggerPkgTokenSpaceGuid.PcdAdvancedLoggerHdwPortDebugPrintErrorLevel|0x0
+  # !endif
 
 [PcdsFixedAtBuild.common]
   # a PCD that controls the enumeration and connection of ConIn's. When true, ConIn is only connected once a console input is requests
