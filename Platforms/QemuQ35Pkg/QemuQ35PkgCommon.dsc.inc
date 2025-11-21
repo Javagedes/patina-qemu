@@ -717,7 +717,7 @@
   gOemPkgTokenSpaceGuid.PcdActiveProfileIndex|0x1
 
   !if $(TARGET) == RELEASE
-   gAdvLoggerPkgTokenSpaceGuid.PcdAdvancedLoggerHdwPortDebugPrintErrorLevel|0x0
+    gAdvLoggerPkgTokenSpaceGuid.PcdAdvancedLoggerHdwPortDebugPrintErrorLevel|0x0
   !endif
 
 [PcdsFixedAtBuild.common]
